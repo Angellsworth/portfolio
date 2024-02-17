@@ -1,0 +1,62 @@
+/* colors
+#FEEAE8 light pink
+#C86A69 dark pink
+#58BDB1 teal blue*/
+
+/*fonts
+font-family: 'Alice', serif;
+font-family: 'Sacramento', cursive; */
+
+body{
+    background-color: #FEEAE8;
+}
+
+
+header {
+    position: sticky; top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(254, 234, 232) ;
+    color: black;  
+    border-bottom: 1px solid #C7ADAC;
+    
+}
+.headerH1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+img {
+    width: 220px;
+    border-radius: 5px;
+    margin: 20px; 
+}
+main {
+    height: 1000px;
+}
+
+
+
+.intro {
+    max-width: 500px;
+    text-align: left;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4d3c5;   
+    height: 50px; 
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #112A46;
+}
+
